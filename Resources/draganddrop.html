@@ -1,0 +1,64 @@
+<html>
+	<head>
+        <title>Drag and Drop</title>
+        <script type='text/javascript'>
+			eventHandlers = {
+				onDrop: function(ev) {
+					console.log('target: ' + arguments.callee.name);
+					
+					ev.preventDefault();
+					var data = ev.dataTransfer.getData('text');
+					ev.target.appendChild(document.getElementById(data));
+				},
+				
+				onDragOver: function(ev) {
+					console.log('target: ' + arguments.callee.name);
+					
+					ev.preventDefault();
+				},
+				
+				onDragLeave: function(ev) {
+					console.log('target: ' + arguments.callee.name);
+				},
+				
+				onDragEnter: function(ev) {
+					console.log('target: ' + arguments.callee.name);
+				},
+				
+				onDragStart: function(ev) {
+					console.log('source: ' + arguments.callee.name);
+					ev.dataTransfer.setData('text', ev.target.id);
+				},
+				
+				onDragEnd: function(ev) {
+					console.log('source: ' + arguments.callee.name);
+				},
+				
+				onDrag: function(ev) {
+					console.log('source: ' + arguments.callee.name);
+				}
+			};
+        </script>
+    </head>
+    
+    <body>
+        <div 
+			id="target_elem"
+			style="border: 1px solid black; width: 50px; height: 50px;"
+			ondrop="eventHandlers.onDrop(event)"
+			ondragover="eventHandlers.onDragOver(event)"
+			ondragleave="eventHandlers.onDragLeave(event)"
+			ondragenter="eventHandlers.onDragEnter(event)"
+		>
+		</div>
+        <br>
+        <div
+			id="source_elem"
+			style="border: 1px solid black; background: red; width: 50px; height: 50px;"
+			draggable="true"
+			ondragstart="eventHandlers.onDragStart(event)"
+			ondragend="eventHandlers.onDragEnd(event)"
+			ondrag="eventHandlers.onDrag(event)"
+		></div>
+	</body>
+</html>

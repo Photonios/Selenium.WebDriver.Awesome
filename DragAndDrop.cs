@@ -41,9 +41,14 @@ namespace OpenQA.Selenium.Awesome
         /// </summary>
         /// <param name="sourceElement">The element to drag on top of <paramref name="targetElement"/>.</param>
         /// <param name="targetElement">The element to drag <paramref name="sourceElement"/> to.</param>
-        public static void DragTo<T>(this T sourceElement, T targetElement) where T : IWebElement, IWrapsDriver
+        public static void DragTo<T>(this T sourceElement, T targetElement) where T : IWebElement
         {
-            IWebDriver driver = (sourceElement as IWrapsDriver).WrappedDriver;
+            IWrapsDriver wraps = sourceElement as IWrapsDriver;
+
+            if(wraps == null)
+                throw new WebDriverException("Specified element is not a IWrapsDriver");
+
+            IWebDriver driver = wraps.WrappedDriver;
             sourceElement.DragTo(targetElement, driver);
         }
 
