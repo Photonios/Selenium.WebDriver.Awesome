@@ -23,7 +23,7 @@
 
 using OpenQA.Selenium.Internal;
 
-namespace OpenQA.Selenium.Extensions
+namespace OpenQA.Selenium.Awesome
 {
     /// <summary>
     /// Defines extensions on the <see cref="IWebElement"/> interface for HTML5 drag and drop.

@@ -6,3 +6,9 @@ packages/
 
 # Ignore temporary build objects directory
 obj/
+
+# Ignore *.suo files, temporary files by VS
+*.suo
+
+# Ignore build Nuget packages
+*.nupkg

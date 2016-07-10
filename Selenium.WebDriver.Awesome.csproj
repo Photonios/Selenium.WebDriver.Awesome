@@ -7,8 +7,8 @@
     <ProjectGuid>{85161C67-81BC-4F1A-B938-7FF7AF1AFAB3}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>OpenQA.Selenium.Extensions</RootNamespace>
-    <AssemblyName>Selenium.WebDriver.Extensions</AssemblyName>
+    <RootNamespace>OpenQA.Selenium.Awesome</RootNamespace>
+    <AssemblyName>OpenQA.Selenium.Awesome</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <TargetFrameworkProfile />

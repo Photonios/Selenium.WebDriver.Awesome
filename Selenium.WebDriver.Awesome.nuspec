@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>$id$</id>
+    <version>$version$</version>
+    <title>Selenium WebDriver Awesome</title>
+    <authors>Swen Kooij</authors>
+    <owners>$author$</owners>
+    <licenseUrl>https://github.com/Photonios/Selenium.WebDriver.Awesome/blob/master/LICENSE</licenseUrl>
+    <projectUrl>https://github.com/Photonios/Selenium.WebDriver.Awesome</projectUrl>
+    <iconUrl>http://seleniumhq.org/images/big-logo.png</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Awesome object extensions for Selenium WebDriver. Currently adds support for HTML5 Drag and Drop.</description>
+    <releaseNotes>Initial version.</releaseNotes>
+    <copyright>Copyright 2016</copyright>
+    <tags>Selennium WebDriver Awesome Extensions HTML5 Drag and Drop</tags>
+  </metadata>
+</package>

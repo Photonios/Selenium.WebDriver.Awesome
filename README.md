@@ -1,5 +1,5 @@
-# Selenium.WebDriver.Extensions
-This library intends to provide useful object extensions to Selenium's .NET bindings.
+# Selenium.WebDriver.Awesome
+This library intends to provide awesome object extensions to Selenium's .NET bindings.
 
 At this moment it contains:
 
@@ -10,7 +10,7 @@ This package is on NuGet:
 ## Add to your project
 Simply add a new NuGet dependency:
 
-	Install-Package Selenium.WebDriver.Extensions
+	Install-Package Selenium.WebDriver.Awesome
 
 ## Using
 ### HTML5 Drag and Drop
@@ -25,7 +25,7 @@ This feature depends on:
 
 The extension is on `IWebElement`:
 
-	using OpenQA.Selenium.Extensions;
+	using OpenQA.Selenium.Awesome;
 
 	IWebElement sourceElement = ...
 	IWebElement targetElement = ...
