@@ -1,0 +1,4 @@
+[submodule "Resources/JS-DragAndDrop-Simulator"]
+	path = Resources/JS-DragAndDrop-Simulator
+	url = https://github.com/Photonios/JS-DragAndDrop-Simulator
+	branch = master
