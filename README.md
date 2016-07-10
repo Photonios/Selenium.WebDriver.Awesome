@@ -19,7 +19,7 @@ Simply add a new NuGet dependency:
 
 This feature depends on:
 
-	https://github.com/Photonios/js-drag-and-drop-simulator
+	https://github.com/Photonios/JS-DragAndDrop-Simulator
 
 (It is included in this project, no need to do anything with it).
 
