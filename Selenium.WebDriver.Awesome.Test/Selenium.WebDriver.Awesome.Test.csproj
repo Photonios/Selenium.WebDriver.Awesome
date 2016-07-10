@@ -59,13 +59,13 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="packages.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\Selenium.WebDriver.Awesome.csproj">
+    <ProjectReference Include="..\Selenium.WebDriver.Awesome\Selenium.WebDriver.Awesome.csproj">
       <Project>{85161c67-81bc-4f1a-b938-7ff7af1afab3}</Project>
       <Name>Selenium.WebDriver.Awesome</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
   </ItemGroup>
   <Choose>
     <When Condition="'$(VisualStudioVersion)' == '10.0' And '$(IsCodedUITest)' == 'True'">

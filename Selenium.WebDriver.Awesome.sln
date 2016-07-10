@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25123.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Selenium.WebDriver.Awesome", "Selenium.WebDriver.Awesome.csproj", "{85161C67-81BC-4F1A-B938-7FF7AF1AFAB3}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Selenium.WebDriver.Awesome", "Selenium.WebDriver.Awesome\Selenium.WebDriver.Awesome.csproj", "{85161C67-81BC-4F1A-B938-7FF7AF1AFAB3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Selenium.WebDriver.Extensions.Test", "Selenium.WebDriver.Extensions.Test\Selenium.WebDriver.Extensions.Test.csproj", "{BE95DF41-C743-4368-9018-EBC67E9DF19B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Selenium.WebDriver.Awesome.Test", "Selenium.WebDriver.Awesome.Test\Selenium.WebDriver.Awesome.Test.csproj", "{BE95DF41-C743-4368-9018-EBC67E9DF19B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
