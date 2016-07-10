@@ -5,7 +5,9 @@ At this moment it contains:
 
 * Support for HTML5 Drag and Drop
 
-This package is on NuGet: 
+This package is on NuGet:
+
+https://www.nuget.org/packages/Selenium.WebDriver.Awesome/
 
 ## Add to your project
 Simply add a new NuGet dependency:
