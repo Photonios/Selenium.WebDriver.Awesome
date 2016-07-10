@@ -23,7 +23,7 @@
 
 using OpenQA.Selenium.Internal;
 
-namespace OpenQA.Selenium
+namespace OpenQA.Selenium.Extensions
 {
     /// <summary>
     /// Defines extensions on the <see cref="IWebElement"/> interface for HTML5 drag and drop.
@@ -41,10 +41,10 @@ namespace OpenQA.Selenium
         /// </summary>
         /// <param name="sourceElement">The element to drag on top of <paramref name="targetElement"/>.</param>
         /// <param name="targetElement">The element to drag <paramref name="sourceElement"/> to.</param>
-        public static void DragTo(this IWebElement sourceElement, IWebElement targetElement)
+        public static void DragTo<T>(this T sourceElement, T targetElement) where T : IWebElement, IWrapsDriver
         {
             IWebDriver driver = (sourceElement as IWrapsDriver).WrappedDriver;
-            sourceElement.DragTo(driver, targetElement);
+            sourceElement.DragTo(targetElement, driver);
         }
 
         /// <summary>
@@ -53,7 +53,7 @@ namespace OpenQA.Selenium
         /// <param name="sourceElement">The element to drag on top of <paramref name="targetElement"/>.</param>
         /// <param name="driver">The driver to execute the action on.</param>
         /// <param name="targetElement">The element to drag <paramref name="sourceElement"/> to.</param>
-        public static void DragTo(this IWebElement sourceElement, IWebDriver driver, IWebElement targetElement)
+        public static void DragTo(this IWebElement sourceElement, IWebElement targetElement, IWebDriver driver)
         {
             IJavaScriptExecutor executor = driver as IJavaScriptExecutor;
 

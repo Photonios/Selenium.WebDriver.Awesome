@@ -7,7 +7,7 @@
     <ProjectGuid>{85161C67-81BC-4F1A-B938-7FF7AF1AFAB3}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>OpenQA.Selenium</RootNamespace>
+    <RootNamespace>OpenQA.Selenium.Extensions</RootNamespace>
     <AssemblyName>Selenium.WebDriver.Extensions</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
@@ -38,7 +38,6 @@
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="System.Data" />
-    <Reference Include="System.Net.Http" />
     <Reference Include="System.Xml" />
     <Reference Include="WebDriver, Version=2.53.1.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>packages\Selenium.WebDriver.2.53.1\lib\net40\WebDriver.dll</HintPath>
