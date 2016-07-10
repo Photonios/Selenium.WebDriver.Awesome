@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <package >
   <metadata>
-    <id>$id$</id>
+    <id>Selenium.WebDriver.Awesome</id>
     <version>$version$</version>
     <title>Selenium WebDriver Awesome</title>
     <authors>Swen Kooij</authors>
@@ -12,7 +12,7 @@
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>Awesome object extensions for Selenium WebDriver. Currently adds support for HTML5 Drag and Drop.</description>
     <releaseNotes>Initial version.</releaseNotes>
-    <copyright>Copyright 2016</copyright>
+    <copyright>Copyright 2016 @ Swen Kooij / Photonios</copyright>
     <tags>Selennium WebDriver Awesome Extensions HTML5 Drag and Drop</tags>
   </metadata>
 </package>
